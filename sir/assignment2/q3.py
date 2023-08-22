@@ -1,0 +1,9 @@
+list=[[2,5,8],
+      [3,7,4],
+      [1,6,9],
+      [4,2,0]
+     ] 
+user=input("enter the row : ")
+for i in list:
+    if user in list
+           

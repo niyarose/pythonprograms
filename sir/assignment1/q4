@@ -1,0 +1,27 @@
+"question 4"
+
+from math import *
+
+a=int(input("Enter side a: "))
+b=int(input("Enter base b: "))
+c=int(input("Enter side c: "))
+
+if a==b==c:
+    print("Triangle is Equilateral")
+    eqarea = (1.73*a*a)/4
+    eqparameter = 3*a
+    print("Area of equilateral = ",eqarea)
+    print("Parameter of equilateral = ",eqparameter)
+elif a==c:
+    print("Triangle is Isosceles")
+    h=int(input("Enter the height of triangle: "))
+    isoarea=(b*h)/2
+    isoparameter=2*a+b
+    print("Area of isosceles = ",isoarea)
+    print("Parameter of isosceles = ",isoparameter)
+else:
+    print("Triangle is Scalene")
+    s=(a+b+c)/2
+    scarea=sqrt(s*(s-a)(s-b)(s-c))
+    print("Area of scalene = ",scarea)
+    print("Parameter of scalene = ",s)

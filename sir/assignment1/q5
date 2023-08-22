@@ -1,0 +1,9 @@
+q1=input("Is it Raining ? :")
+if q1.lower() == "yes":
+    q2=input("Is it Windy ? :")
+    if q2.lower() == "yes":
+        print("It is too windy for an umbrella")
+    else:
+        print("Take an umbrella")
+else:
+    print("Enjoy your day")

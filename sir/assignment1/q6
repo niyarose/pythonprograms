@@ -1,0 +1,17 @@
+print("1: Square")
+print("2: Triangle")
+try:
+    num=int(input("Enter a number from above : "))
+    if num==1:
+        side=int(input("Enter the length of one side: "))
+        sarea=side*side
+        print("Area of Square is : ",sarea)
+    elif num==2:
+        b=int(input("Enter the base of triangle : "))
+        h=int(input("Enter the height triangle : "))
+        tarea=(b*h)/2
+        print("Area of Triangle is : ",tarea)
+    else:
+        print("Invalid Input")
+except Exception as e:
+    print("Invalid Input")
